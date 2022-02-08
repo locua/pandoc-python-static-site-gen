@@ -195,7 +195,6 @@ if __name__ == "__main__":
     os.system("cd site && python3 -m http.server")
   elif (sys.argv[1]=="git"):
     print("[Commiting and pushing latest to git."+"]")
-    os.system("rsync -rh  --info=progress2 --exclude='*.swp' site/* root@"+server+":"+destdir+" --delete")
     os.system("git commit -am \"post\" && git push")
   else:
     print("\nArgument is invalid\n")
