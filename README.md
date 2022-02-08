@@ -6,7 +6,7 @@ The best of python, pandoc (haskell) and shell all in one. Should work with a st
 
 ```bash
 ./gen.py build # Compiles markdown files in directory named "src" to html in "site" directory.
-./gen.py upload # Uploads to server with target directory /var/www/html
+./gen.py upload # Uploads to ssh named my_server with target directory /var/www/html
 ./gen.py git # commits and pushes to git
 ./gen.py all # Does all of the above
 ./gen.py serve # Creates a local server for testing
@@ -58,4 +58,5 @@ tags: ["example","another","climate crisis"]
 ## TODO or IDEAS
 - Move to python only no shell commands for compatibility?
   - Speed differences
+  - posix is chill tho
 - Format HTML template code so it can be easily edited in the python script.
