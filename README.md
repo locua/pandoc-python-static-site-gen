@@ -30,8 +30,7 @@ Should work on macos if pandoc execuable is available. NOT TESTED.
 
 For example create directory of directories with this structure. Each post can be put within a folder which is it's category. The generator will then simply create an index of each post within each category and display this as a list.
 ```
-python3 generate.py
-
+./gen.py build
 # Here is an example src directory. The home page is the index.md file.
 
 src
@@ -43,7 +42,6 @@ src
     └── my_favourite_maths.md
 
 ```
-Run `python3 -m http.server` in the site directory to view the site on a local server.
 
 Each markdown must contain the following at the top of the file, with at least the title value:
 
