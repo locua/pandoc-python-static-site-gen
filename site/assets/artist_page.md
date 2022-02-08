@@ -2,6 +2,7 @@
 lang: en-GB
 title: Some stuff that I like
 description: Lah di dah.
+tags: ["art","creativity","aesthetics"]
 
 ---
 
