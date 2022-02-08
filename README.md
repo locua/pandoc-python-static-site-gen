@@ -2,6 +2,16 @@
 
 The best of python, pandoc (haskell) and shell all in one. Should work with a standard full python installation without requiring `pip install`. Made for ease of use and development due to python's built in string manipulation functions. Pandoc and python are widely used hopefully lending to the longevity of this code.
 
+## Usage
+
+```
+./gen.py build # Compiles markdown files in directory named "src" to html in "site" directory.
+./gen.py upload # Uploads to server with target directory /var/www/html
+./gen.py git # commits and pushes to git
+./gen.py all # Does all of the above
+./gen.py serve # Creates a local server for testing
+```
+
 ## Features
 - RSS feed generated with item for each page.
 - 1 folder deep folder structure is transformed into categorised pages. See example below.
@@ -22,6 +32,7 @@ python3 generate.py
 
 src
 ├── index.md
+├── about.md
 ├── art
 │   └── artist_page.md
 └── maths
