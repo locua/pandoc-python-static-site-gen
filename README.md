@@ -40,23 +40,3 @@ description: Some description
 
 ---
 ```
-
-### Potentially useful notes
-
-Convert all newlines into \n: `awk '$1=$1' ORS='\\n' file`
-
-Find and replace on one line only in vim: `:s/str1/str2/g`
-
-#### Old notes
-```
-pandoc --verbose -s --toc --toc-depth 2 -f markdown -t html index.md > src/main.html
-cat src/base.html src/main.html src/foot.html > site/index.html
-
-categories=($(ls -d src/*/))
-for fldr in ${categories[@]}; do
-    eval 'ls "$fldr"'
-done
-```
-
-
-

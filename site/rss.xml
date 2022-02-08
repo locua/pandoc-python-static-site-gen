@@ -4,21 +4,21 @@
 		<title>Random rss feed' RSS feed yeah! </title>
 		<link>https://example.xyz</link>
 		<description>Some lovely ideas from my brain.</description>
-		<lastBuildDate>Tue, 08 Feb 2022 14:31:07 GMT</lastBuildDate>
+		<lastBuildDate>Tue, 08 Feb 2022 14:35:44 GMT</lastBuildDate>
 		<ttl>15</ttl>
 		<item>
 			<title>Some stuff that I like</title>
 			<description>Lah di dah.</description>
 			<link>https://example.xyz/art/artist_page.html</link>
 			<guid isPermaLink="false">https://example.xyz/art/artist_page.html</guid>
-			<pubDate>Tue, 08 Feb 2022 14:30:44 GMT</pubDate>
+			<pubDate>Tue, 08 Feb 2022 14:35:43 GMT</pubDate>
 		</item>
 		<item>
 			<title>Some maths</title>
 			<description>Lah di dah. Some maths is here.</description>
 			<link>https://example.xyz/maths/my_favourite_maths.html</link>
 			<guid isPermaLink="false">https://example.xyz/maths/my_favourite_maths.html</guid>
-			<pubDate>Tue, 08 Feb 2022 14:31:04 GMT</pubDate>
+			<pubDate>Tue, 08 Feb 2022 14:35:04 GMT</pubDate>
 		</item>
 		<item>
 			<title>About this website</title>
