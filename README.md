@@ -4,7 +4,7 @@ The best of python, pandoc (haskell) and shell all in one. Should work with a st
 
 ## Usage
 
-```
+```bash
 ./gen.py build # Compiles markdown files in directory named "src" to html in "site" directory.
 ./gen.py upload # Uploads to server with target directory /var/www/html
 ./gen.py git # commits and pushes to git
