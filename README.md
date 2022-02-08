@@ -56,3 +56,8 @@ tags: ["example","another","climate crisis"]
 
 ---
 ```
+
+## TODO or IDEAS
+- Move to python only no shell commands for compatibility?
+  - Speed differences
+- Format HTML template code so it can be easily edited in the python script.
