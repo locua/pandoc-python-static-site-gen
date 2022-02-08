@@ -43,7 +43,7 @@ src
 ```
 Run `python3 -m http.server` in the site directory to view the site on a local server.
 
-Each markdown must contain the following at the top of the file:
+Each markdown must contain the following at the top of the file, with at least the title value:
 
 ```
 ---
