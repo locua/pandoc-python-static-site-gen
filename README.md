@@ -12,7 +12,7 @@ The best of python, pandoc (haskell) and shell all in one. Should work with a st
 ./gen.py serve # Creates a local server for testing
 ```
 
-Store assets in ./assets directory these will be copied over to src/assets/.
+Store assets in `./assets` directory these will be copied over to `src/assets/`.
 
 ## Features
 - RSS feed generated with item for each page.
@@ -23,6 +23,8 @@ Store assets in ./assets directory these will be copied over to src/assets/.
 - Python3.\*
 - A Linux shell. Tested on ubuntu and ubuntu for WSL. Should work on most Linux distros.
 - Pandoc. `sudo apt install pandoc` if debian based.
+
+Should work on macos if pandoc execuable is available. NOT TESTED.
 
 ## Example setup
 
