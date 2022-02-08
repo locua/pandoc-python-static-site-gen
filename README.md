@@ -37,6 +37,7 @@ Each markdown must contain the following at the top of the file:
 lang: en-GB
 title: Title for page
 description: Some description
+tags: ["example","another","climate crisis"]
 
 ---
 ```
