@@ -12,6 +12,8 @@ The best of python, pandoc (haskell) and shell all in one. Should work with a st
 ./gen.py serve # Creates a local server for testing
 ```
 
+Store assets in ./assets directory these will be copied over to src/assets/.
+
 ## Features
 - RSS feed generated with item for each page.
 - 1 folder deep folder structure is transformed into categorised pages. See example below.
