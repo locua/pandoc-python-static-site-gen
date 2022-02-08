@@ -21,7 +21,7 @@ Store assets in `./assets` directory these will be copied over to `src/assets/`.
 
 ## Requirements
 - Python3.\*
-- A Linux shell. Tested on ubuntu and ubuntu for WSL. Should work on most Linux distros.
+- A Linux shell (maybe POSIX (untested)). Tested on ubuntu and ubuntu for WSL. Should work on most Linux distros.
 - Pandoc. `sudo apt install pandoc` if debian based.
 
 Should work on macos if pandoc execuable is available. NOT TESTED.
